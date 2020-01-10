@@ -20,3 +20,12 @@ var a2 = new Animal("үхэр");
 a2.hoolloh();
 var a3 = new Animal("адуу");
 a3.hoolloh();
+
+function My(ner) {
+  this.name = ner;
+}
+My.prototype.sayName = function() {
+  console.log("Миний нэр бол " + this.name);
+};
+var me = new My("Энхтайван");
+me.sayName();
