@@ -1,0 +1,60 @@
+.full-container {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+}
+.human {
+  display: block;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 10px;
+  font-weight: 700;
+  color: #fff;
+  background: #d32f2f;
+  border: 4px solid #b71c1c;
+  transition: 0.3s ease;
+}
+.addDetails {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  padding: 20px;
+  background: #e53935;
+}
+.addDetails input[type="text"],
+input[type="date"] {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.addDetails input[type="checkbox"] {
+  padding: 10px;
+}
+.addDetails span {
+  color: #fff;
+}
+.addDetails input[type="date"] {
+  margin-top: 10px;
+}
+.addDetails button {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px;
+  text-transform: lowercase;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ef5350;
+  border: 1px solid #c62828;
+}
+.addDetails button:hover {
+  background-color: #d32f2f;
+}

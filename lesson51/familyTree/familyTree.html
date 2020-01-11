@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="familyTree.css" />
+  </head>
+  <body>
+    <div class="full-container">
+      <div id="human" class="human" onclick="displayForm()"></div>
+    </div>
+    <form
+      action="familyTree.html"
+      method="POST"
+      name="addDetails"
+      class="addDetails"
+      id="addDetails"
+    >
+      <input type="text" name="firstName" id="firstName" placeholder="овог" />
+      <input type="text" name="lastName" id="lastName" placeholder="нэр" />
+      <input
+        type="checkbox"
+        name="isAlive"
+        id="isAlive"
+        onclick="checkIsAlive()"
+      />
+      <span>Амьдарч байгаа эсэх</span>
+      <input
+        placeholder="төрсөн огноо"
+        class="textbox-n"
+        type="text"
+        onfocus="(this.type='date')"
+        onblur="(this.type='text')"
+        id="date"
+      />
+      <input
+        placeholder="нас барсан огноо"
+        class="textbox-n"
+        type="text"
+        onfocus="(this.type='date')"
+        onblur="(this.type='text')"
+        id="date"
+      />
+      <button type="submit">ОК</button>
+    </form>
+
+    <script src="familyTree.js"></script>
+  </body>
+</html>

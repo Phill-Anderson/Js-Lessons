@@ -1,7 +1,6 @@
 function Animal(ner) {
   this.name = ner;
 }
-
 // prototype нь тусгай обьект юм.
 // prototype ашигласнаар санах ойд Animal - ын hoolloh функц ганц удаа л үүснэ.
 //Өөрөөр хэлбэл функц илүү хурдан ажиллана гэсэн үг.
